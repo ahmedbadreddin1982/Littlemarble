@@ -1,0 +1,36 @@
+.page{
+display:grid;margin:20px;text-align:center;
+border:1px; grid-template-rows:minmax(200px,auto)
+;grid-auto-columns:repeat(7,1fr);background-image:11.png;
+grid-template-areas:
+	"z a a a a a z"
+	"z b b b b b z"
+	"c c c c c d d"
+	"c c c c c d d"
+	"c c c c c d d"
+	"e e e e e e e"
+	"f f f f f f f"
+}
+.banner{
+grid-area:a;display:flex;flex-wrap:wrap;
+height:300px;width:auto;margin:40px;
+border:20px solid white;background-color:#7E692A;
+font-family:cursive;line-height:1.5;color:white;
+text-shadow:1px 2px 3px black;text-align:justify;
+  font-stretch: normal; font-size: 40pt;
+  }
+  #banner{
+  color:white;font-size:15pt;text-align:center;
+  }
+  #bkg{
+  background-image:url("11.png")
+  }
+  .ulbanner{
+  grid-area:b;height:200px;width:auto;
+  font-family:georgian;font-size:16pt
+  }
+  .categories{
+  width:auto;height:200px;grid-area:b;
+  font-family:cursive;font-size:12pt;margin:40px;background-color:white;
+  }
+  
